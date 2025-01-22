@@ -13,13 +13,13 @@ You either bootstrap it via `curl`, or clone the repo and run it locally.
 ### Bootstrap
 
 ``` bash
-curl -L -H 'accept: application/vnd.github.v3.raw' "https://api.github.com/repos/jshiell/mac-bootstrap/contents/bootstrap" | bash
+curl -L -H 'accept: application/vnd.github.v3.raw' "https://api.github.com/repos/lnryan/mac-bootstrap/contents/bootstrap" | bash
 ```
 
 ### Cloning and running locally
 
 ```bash
-git clone git@github.com:jshiell/mac-bootstrap.git
+git clone git@github.com:lnryan/mac-bootstrap.git
 cd workstation-bootstrap
 ./setup
 ```
@@ -31,5 +31,5 @@ Alternately you can just run certain parts of it (see the tags in `main.yml`), e
 ```
 
 ## Credits
-
-Very much inspired and influenced by [geerlingguy/mac-dev-playbook](https://github.com/geerlingguy/mac-dev-playbook/).
+Forked from [jshiell/mac-bootstrap](https://github.com/jshiell/mac-bootstrap) with is 
+>Very much inspired and influenced by [geerlingguy/mac-dev-playbook](https://github.com/geerlingguy/mac-dev-playbook/).
